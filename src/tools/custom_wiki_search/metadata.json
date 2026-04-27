@@ -1,0 +1,5 @@
+{
+  "id": "custom_wiki_search",
+  "name": "Wikipedia Search",
+  "description": "Visible Anthropic workspace wrapper around the Wikipedia tool for grounded lookup and exact extraction tasks."
+}

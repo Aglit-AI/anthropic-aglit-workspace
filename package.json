@@ -1,0 +1,24 @@
+{
+  "name": "@aglit-ai/anthropic-aglit-workspace",
+  "version": "0.0.1",
+  "description": "Anthropic-specific Aglit workspace resources",
+  "private": true,
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc && node --experimental-strip-types scripts/export-defaults.ts",
+    "watch": "tsc --watch --preserveWatchOutput",
+    "type-check": "tsc --noEmit",
+    "validate:configs": "node --experimental-strip-types scripts/validate-configs.ts",
+    "export:defaults": "node --experimental-strip-types scripts/export-defaults.ts"
+  },
+  "dependencies": {
+    "@aglit-ai/default-workspace": "workspace:*",
+    "@aglit-ai/template-workspace": "workspace:*",
+    "@aglit-ai/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "company": "Anthropic",
+  "palette": {
+    "primary": "#D97706",
+    "secondary": "#1F1B16",
+    "accent": "#FDE68A",
+    "textOnPrimary": "#FFFFFF"
+  }
+}
